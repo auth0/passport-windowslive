@@ -46,7 +46,7 @@ application:
     app.get('/auth/windowslive',
       passport.authenticate('windowslive', { scope: ['wl.signin', 'wl.basic'] }));
 
-    app.get('/auth/windowslive/callback', 
+    app.get('/auth/windowslive/callback',
       passport.authenticate('windowslive', { failureRedirect: '/login' }),
       function(req, res) {
         // Successful authentication, redirect home.
@@ -66,10 +66,18 @@ For a complete, working example, refer to the [login example](https://github.com
 
 ## Credits
 
-  - [Jared Hanson](http://github.com/jaredhanson)
+- [Jared Hanson](http://github.com/jaredhanson)
+
+## Issue Reporting
+
+If you have found a bug or if you have a feature request, please report them at this repository issues section. Please do not report security vulnerabilities on the public GitHub issue tracker. The [Responsible Disclosure Program](https://auth0.com/whitehat) details the procedure for disclosing security issues.
+
+## Author
+
+[Auth0](auth0.com)
 
 ## License
 
-[The MIT License](http://opensource.org/licenses/MIT)
+This project is licensed under the MIT license. See the [LICENSE](LICENSE) file for more info.
 
 Copyright (c) 2011-2013 Jared Hanson <[http://jaredhanson.net/](http://jaredhanson.net/)>
