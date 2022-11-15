@@ -33,7 +33,7 @@
   ],
   "main": "./lib/passport-windowslive",
   "dependencies": {
-    "pkginfo": "0.2.x",
+    "pkginfo": "0.4.1",
     "passport-oauth": "~0.1.2",
     "request": "~2.14.0"
   },
