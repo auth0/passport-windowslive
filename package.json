@@ -35,7 +35,7 @@
   "dependencies": {
     "pkginfo": "0.2.x",
     "passport-oauth": "~0.1.2",
-    "request": "~2.14.0"
+    "request": "~2.88.2"
   },
   "devDependencies": {
     "vows": "0.6.x"
